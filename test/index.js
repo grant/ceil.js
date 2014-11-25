@@ -20,5 +20,10 @@ describe('ceil', function() {
     assert.equal(12500, ceil(12489.9482, 2));
     assert.equal(12490, ceil(12489.9482, 1));
     assert.equal(12490, ceil(12489.9482, 0));
+    assert.equal(12490.0, ceil(12489.9482, -1));
+    assert.equal(12489.95, ceil(12489.9482, -2));
+    assert.equal(12489.949, ceil(12489.9482, -3));
+    assert.equal(12489.9482, ceil(12489.9482, -4));
+    assert.equal(12489.9482, ceil(12489.9482, -5));
   });
 });
