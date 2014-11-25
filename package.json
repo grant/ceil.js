@@ -1,0 +1,31 @@
+{
+  "name": "ceil",
+  "version": "0.0.0",
+  "description": "Ceils the given value to the specified number of decimal places.",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/grant/ceil.js.git"
+  },
+  "keywords": [
+    "ceil",
+    "number",
+    "round",
+    "floor"
+  ],
+  "author": "Grant Timmerman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grant/ceil.js/issues"
+  },
+  "homepage": "https://github.com/grant/ceil.js",
+  "dependencies": {
+    "decimal-adjust": "0.0.0"
+  }
+}
